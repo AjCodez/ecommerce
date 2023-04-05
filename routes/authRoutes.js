@@ -11,15 +11,6 @@ router.get("/register", (req,res)=>{
 })
 
 
-// router.get("/fakeUser",async(req,res)=>{
-    
-//     const user = new User({username: "fakeUser", email: "abcd@gmail.com"});
-//      const newUser = await User.register(user , "12345");
-//     res.send(newUser);
-
-// })
-
-
 //register new user
 router.post("/register",async(req,res)=>{
 
